@@ -116,7 +116,23 @@ Province Object {
     }
 }
 */
+
+Indonesia::findVillage('3578090006')
+
+/*
+Will return 
+Village Object {
+    'id' => 3578090006,
+    'name' => 'KALIJUDAN',
+    'district_id => '3578090',
+}
+*/
 ```
+---
+
+### GET ID OF VILLAGE
+
+`$object->id` will result different, so please use `$object['attributes']['id']` to get id of village.
 
 ---
 
